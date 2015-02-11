@@ -39,7 +39,6 @@ h2 {
     position: relative;
     width: 32%;
     float: left;
-    padding-top: 4em;
     min-height: 14rem;
     background: white;
     cursor: pointer;
@@ -55,25 +54,23 @@ h2 {
     margin-right: 2%;
     margin-bottom: 25px;
     div {
-        display: block;
+        display: table;
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: 14em;
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         -o-backface-visibility: hidden;
         backface-visibility: hidden;
+        padding: 25px;
     }
     &:nth-of-type(3n) {
         margin-right: 0;
     }
     .front {
-        display: table;
-        line-height: 14rem;
     }
     .back {
-        display: table;
-        padding: 25px;
+
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
@@ -87,11 +84,10 @@ h2 {
 
 h3 {
     font-size: 2.75rem;
-    line-height: 3rem;
-    text-align: center;
     font-weight: 600;
-    display: block;
+    display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 p {
