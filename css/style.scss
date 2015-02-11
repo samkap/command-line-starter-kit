@@ -68,9 +68,11 @@ h2 {
         margin-right: 0;
     }
     .front {
+        display: table;
         line-height: 14rem;
     }
     .back {
+        display: table;
         padding: 25px;
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
@@ -95,6 +97,9 @@ h3 {
 p {
     font-size: 1.25rem;
     font-weight: 300;
+    display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 em {
