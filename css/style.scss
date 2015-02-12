@@ -22,7 +22,10 @@ body {
 
 .container {
     max-width: 1000px;
-    margin: 1.8rem auto;
+    margin: 2.5rem auto;
+    clear: both;
+    overflow: hidden;
+    display: block;
 }
 
 h1 {
@@ -102,4 +105,26 @@ p {
 em {
     font-style: italic;
     font-weight: 600;
+}
+
+.outer-resources {
+    padding: 20px;
+    background: #004853;
+    clear: both;
+        color: #eee;
+
+    h2 {
+    color: #eee;
+
+    }
+
+    ul,li {
+        list-style-type: disc;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #eee;
+        text-decoration: none;
+    }
 }

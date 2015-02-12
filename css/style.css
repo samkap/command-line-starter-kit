@@ -45,7 +45,10 @@ body {
 
 .container {
   max-width: 1000px;
-  margin: 1.8rem auto; }
+  margin: 2.5rem auto;
+  clear: both;
+  overflow: hidden;
+  display: block; }
 
 h1 {
   font-size: 4.6rem;
@@ -112,5 +115,19 @@ p {
 em {
   font-style: italic;
   font-weight: 600; }
+
+.outer-resources {
+  padding: 20px;
+  background: #004853;
+  clear: both;
+  color: #eee; }
+  .outer-resources h2 {
+    color: #eee; }
+  .outer-resources ul, .outer-resources li {
+    list-style-type: disc;
+    margin-bottom: 10px; }
+  .outer-resources a {
+    color: #eee;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
