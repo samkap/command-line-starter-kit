@@ -99,14 +99,16 @@ h2 {
   transform: rotateY(-180deg); }
 
 h3 {
-  font-size: 2.75rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 300;
   display: table-cell;
   vertical-align: middle;
   text-align: center; }
+  h3 span {
+    font-weight: 600; }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 300;
   display: table-cell;
   vertical-align: middle;
@@ -114,7 +116,7 @@ p {
 
 em {
   font-style: italic;
-  font-weight: 600; }
+  font-weight: 300; }
 
 .outer-resources {
   padding: 20px;
